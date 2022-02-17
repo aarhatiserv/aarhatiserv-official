@@ -1,0 +1,368 @@
+.aboutBanner {
+  background: url("../images/aboutus_banner.png") fixed;
+  height: 60vh;
+}
+
+/* what-we-do section css */
+.what-we-do {
+  height: 100vh;
+}
+
+.greenline {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 320px;
+  transform: skewY(-11deg);
+}
+
+.greyCard {
+  position: absolute;
+  background: #e5e5e5;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  height: 50vh;
+  width: 20vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .greyCard {
+    display: none;
+  }
+  .how-we-do {
+    padding-top: 150px !important;
+  }
+  .teamSection {
+    padding-top: 250px;
+  }
+}
+/* what-we-do section css ends here */
+
+/* how we do */
+/* #how-we-do{
+    height: 100vh;
+} */
+
+/* .greenopline {
+
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: #4CD49D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 350px;
+    overflow: visible;
+    transform: rotate(5deg);
+
+
+} */
+
+@media only screen and (max-width: 480px) {
+  .howImg {
+    height: 90vh;
+  }
+}
+/* how we do ends here */
+
+/* how we choose us */
+
+.why-choose-us {
+  height: 80vh;
+}
+
+.greenline1 {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 200px;
+  transform: skewY(-11deg);
+}
+
+.greyCard1 {
+  position: absolute;
+  background: #e5e5e5;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  height: 50vh;
+  width: 20vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .greyCard1 {
+    display: none;
+  }
+  .whyWeDo {
+    height: 100vh;
+  }
+}
+/* how we choose us ends her */
+
+/* our team section */
+.teamSection {
+  display: block;
+  position: relative;
+  height: 100vh;
+  /* background: url("../public/assets/images/our-team.png"); */
+}
+
+/* .scrollingWrapper{
+    height: 60vh;
+    display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+   
+    
+} */
+/* .scrollingWrapper::-webkit-scrollbar {
+    display: none;
+} */
+.teamCard {
+  display: block;
+}
+
+.myTeamCard {
+  /* margin-bottom: -200px; */
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ourTeam {
+  background-image: url("../images/our-team.png");
+
+  height: 28em;
+
+  /* height: 80vh; */
+}
+
+.teamImg {
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+  .teamSection {
+    height: 120vh;
+  }
+  /* .scrollingWrapper{
+        
+        height: 100vh;
+        display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+        
+    } */
+  .teamCard {
+    display: block;
+  }
+}
+
+/* our team section ends */
+
+/* cerification secion */
+.cerification-main {
+  position: static;
+  height: 65vh;
+}
+
+.greenline-cer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 100px;
+  transform: skewY(-11deg);
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    height: 100vh;
+  }
+  .cerification-main {
+    padding-top: 1200px;
+  }
+  #emptyAboutus {
+    padding-top: 650px;
+  }
+}
+
+/* cerification secion ends*/
+
+/* CSS for How we do  */
+.bg {
+  background: repeating-linear-gradient(
+    45deg,
+    #f0f6ff 0,
+    #f0f6ff 10px,
+    #e9f2ff 10px,
+    #e9f2ff 20px
+  );
+}
+
+.main-timeline {
+  font-family: verdana;
+  position: relative;
+}
+
+.main-timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-timeline .timeline {
+  width: 50%;
+  margin: 0 0 20px 20px;
+  float: right;
+}
+
+.main-timeline .timeline-content {
+  color: #000;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  text-align: center;
+  min-height: 125px;
+  padding: 30px 20px 30px 45px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  display: block;
+  position: relative;
+}
+
+.main-timeline .timeline-content:hover {
+  text-decoration: none;
+}
+
+.main-timeline .timeline-icon {
+  color: #fff;
+  background-color: #ff4f00;
+  font-size: 37px;
+  line-height: 65px;
+  height: 75px;
+  width: 75px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: -38px;
+  top: 50%;
+}
+
+.main-timeline .timeline-icon:before,
+.main-timeline .timeline-icon:after {
+  content: "";
+  background-color: #000;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: -12px;
+}
+
+.main-timeline .timeline-icon:after {
+  top: calc(100% + 6px);
+}
+
+.main-timeline .title {
+  color: #ff4f00;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 5px;
+}
+
+.main-timeline .description {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.main-timeline .timeline:nth-child(even) {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content {
+  padding: 30px 45px 30px 20px;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+  right: -39px;
+  left: auto;
+}
+
+.main-timeline .timeline:nth-child(4n + 2) .timeline-icon {
+  background-color: #953fbe;
+}
+.main-timeline .timeline:nth-child(4n + 2) .title {
+  color: #953fbe;
+}
+
+.main-timeline .timeline:nth-child(4n + 3) .timeline-icon {
+  background-color: #00b29c;
+}
+.main-timeline .timeline:nth-child(4n + 3) .title {
+  color: #00b29c;
+}
+
+.main-timeline .timeline:nth-child(4n + 4) .timeline-icon {
+  background-color: #02affe;
+}
+.main-timeline .timeline:nth-child(4n + 4) .title {
+  color: #02affe;
+}
+
+@media screen and (max-width: 767px) {
+  .main-timeline .timeline {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .main-timeline .timeline .timeline-content,
+  .main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 45px 20px 20px;
+  }
+
+  .main-timeline .timeline .timeline-icon,
+  .main-timeline .timeline:nth-child(even) .timeline-icon {
+    font-size: 28px;
+    left: 50%;
+    top: -39px;
+    right: auto;
+    transform: translateY(0) translateX(-50%);
+  }
+
+  .main-timeline .timeline .timeline-icon:before,
+  .main-timeline .timeline .timeline-icon:after {
+    top: 50%;
+    left: -12px;
+    transform: translateY(-50%) translateX(0);
+  }
+
+  .main-timeline .timeline .timeline-icon:after {
+    left: calc(100% + 6px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-timeline .title {
+    font-size: 18px;
+  }
+}
