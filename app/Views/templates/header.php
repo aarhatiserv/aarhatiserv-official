@@ -9,10 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </meta>
     <meta name="title" content="AARHAT iSERV- SaaS Software | Website Development Company | Start-up Kit " />
-    <meta name="description" content="AARHAT is a start-up company delivering secure, and robust SaaS software, website designing & ios/android app." />
+    <meta name="description"
+        content="AARHAT is a start-up company delivering secure, and robust SaaS software, website designing & ios/android app." />
     <meta name="keywords" content="Website Development SaaS Start-up Kit ios/android app" />
     <!-- bootstrap cdn -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- stylesheet for icons -->
@@ -40,6 +42,19 @@
     <!-- css for portfolio page -->
     <link rel="stylesheet" href="assets/css/portfolio.css" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153171991-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-153171991-1');
+    </script>
+
 </head>
 
 <body>
@@ -50,7 +65,8 @@
             <a class="navbar-brand" href="/home">
                 <img src="assets/images/aarhat_logo.png" alt="Aarhat Logo" height="50" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-label="Toggle navigation" data-target="#navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-label="Toggle navigation"
+                data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -62,7 +78,8 @@
 
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link mt-2 mr-5 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link mt-2 mr-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             SERVICES
                         </a>
 
