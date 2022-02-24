@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/springan/public_html/aarhatiserv.com
+    - /bin/cp -R public/assets $DEPLOYPATH     
+
