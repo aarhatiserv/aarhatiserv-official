@@ -113,7 +113,7 @@
                     </li>
                     <li class="nav-item">
 
-                        <a href="aarhat_blog" class="nav-link mt-2 mr-5"> V-BLOG </a>
+                        <a href="blog" class="nav-link mt-2 mr-5"> V-BLOG </a>
 
                     </li>
                     <!--<li class="nav-link">
